@@ -1,0 +1,14 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(228, 14, 14, 0.2);
+  color: rgb(46, 11, 11);
+  padding: 1.5rem;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.footer:hover {
+  background-color: rgba(46, 99, 74, 0.3);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

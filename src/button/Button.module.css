@@ -1,0 +1,30 @@
+/* File: src/button/Button.module.css */
+/* CSS Modules: This is a CSS Module file. Unlike regular CSS, classes here are scoped (local) to the component that imports it. */
+/* This prevents class name collisions across components. When imported, .button becomes something like .Button_button__uniqueHash */
+/* Benefits: modular styling, no global style conflicts, better for large applications */
+
+.button {
+  /* Sets the background color to a purple shade (#ee1d90) - this is Highlighter Pink, note the tailwind comment is inaccurate */
+  background-color: #ee1d90; 
+
+  /* Text color set to white for contrast against the purple background */
+  color: white;
+
+  /* Makes the text bold */
+  font-weight: bold;
+
+  /* Adds padding inside the button: 0.5rem (8px) top/bottom, 1rem (16px) left/right */
+  padding: 0.5rem 1rem;
+
+  /* Rounds the corners with a radius of 0.375rem (6px) to make the button appear softer */
+  border-radius: 0.375rem; /* Tailwind's rounded */
+
+  /* Adds a smooth transition effect when the background color changes, lasting 0.3 seconds with ease timing */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover state: Applies when the user hovers over the button */
+.button:hover {
+  /* Changes background color on hover to a teal shade (#14e7c4) for visual feedback */
+  background-color: #14e7c4; /* Tailwind's blue-700 - actually a different color */
+}
