@@ -14,6 +14,8 @@ import ConditionalRender from "./conditionalRender";
 import List1 from "./list1";
 import List2 from "./list2";
 import List3 from "./list3";
+import ButtonOnClick from "./button_onclick";
+import ButtonOnClickEvent from "./button_onclick_event";
 
 function App() {
   const card_img = "./assets/profile.jpg";
@@ -102,7 +104,8 @@ function App() {
       </div>
 
       <Food />
-
+      <ButtonOnClick />
+      <ButtonOnClickEvent />
       <Footer />
       {fruits.length > 0 && <List3 items={fruits} category={"Fruits"} />}
     </>
