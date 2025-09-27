@@ -16,6 +16,8 @@ import List2 from "./list2";
 import List3 from "./list3";
 import ButtonOnClick from "./button_onclick";
 import ButtonOnClickEvent from "./button_onclick_event";
+import ButtonUseState from "./ButtonUseState";
+import Onchange from "./onChange";
 
 function App() {
   const card_img = "./assets/profile.jpg";
@@ -106,6 +108,8 @@ function App() {
       <Food />
       <ButtonOnClick />
       <ButtonOnClickEvent />
+      <ButtonUseState />
+      <Onchange />
       <Footer />
       {fruits.length > 0 && <List3 items={fruits} category={"Fruits"} />}
     </>
